@@ -31,8 +31,6 @@ class ProfilePage extends StatelessWidget {
                     child: const CircleAvatar(
                       radius: 55,
                       backgroundColor: Color(0xFFE3ECF5),
-                      // Jika pakai foto aset lokal, ganti child ini dengan:
-                      // backgroundImage: AssetImage('assets/foto_profil.jpg'),
                       child: Icon(
                         Icons.person,
                         size: 65,
@@ -56,7 +54,7 @@ class ProfilePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: const Text(
-                      "XI PPLG 1 / No. Absen: 00", // Ganti dengan kelas & no absenmu
+                      "XI PPLG 3 / No. Absen: 13", 
                       style: TextStyle(
                         fontSize: 14,
                         color: Colors.white,
@@ -116,7 +114,7 @@ class ProfilePage extends StatelessWidget {
                           style: TextStyle(fontSize: 12, color: Colors.grey),
                         ),
                         subtitle: Text(
-                          "11 PPLG 1 / Absen 00", // Ganti sesuai datamu
+                          "11 PPLG 3 / Absen 13", 
                           style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
@@ -162,7 +160,7 @@ class ProfilePage extends StatelessWidget {
                         subtitle: Padding(
                           padding: EdgeInsets.only(top: 4),
                           child: Text(
-                            "Pelajar jurusan Pengembangan Perangkat Lunak dan Gim (PPLG) yang fokus mempelajari pengembangan aplikasi mobile menggunakan Flutter dan GetX.",
+                            "Pelajar jurusan Pengembangan Perangkat Lunak dan Gim (PPLG)",
                             style: TextStyle(
                               fontSize: 14,
                               color: Colors.black87,
