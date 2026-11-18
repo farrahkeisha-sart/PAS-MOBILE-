@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'PAS Flutter',
-      initialRoute: Routes.,
+      initialRoute: Routes.menuProfile,
       getPages: Routes.myPages,
      
 
